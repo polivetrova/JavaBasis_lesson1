@@ -6,7 +6,7 @@ public class Tasks_2 {
 
     public static void main(String[] args) {
 
-        //1
+        //1.
         int[] array1 = {1, 0, 1, 1, 0, 0, 0, 1, 0, 1};
         for( int i = 0; i < array1.length; i++) {
             if (array1[i] == 0)
@@ -16,7 +16,7 @@ public class Tasks_2 {
         }
         System.out.println(Arrays.toString(array1));
 
-        //2
+        //2.
         int[] array2 = new int[8];
         int step = 3;
         array2[0] = 0;
@@ -25,7 +25,7 @@ public class Tasks_2 {
         }
         System.out.println(Arrays.toString(array2));
 
-        //3
+        //3.
         int[] array3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int j = 0; j < array3.length; j++){
             if (array3[j] < 6) array3[j] *= 6;
@@ -33,7 +33,7 @@ public class Tasks_2 {
         }
         System.out.println(Arrays.toString(array3));
 
-        //4
+        //4.
         int[][] deepArray4 = new int [5][5];
         for(int i = 0; i < deepArray4.length; i++){
             for(int j = 0, j1 = deepArray4[i].length; j < deepArray4[i].length; j++, j1--){
@@ -43,7 +43,7 @@ public class Tasks_2 {
             System.out.println();
         }
 
-        //5
+        //5.
         int[] array5 = new int [8];
         for (int i = 0; i < array5.length; i++) {
             array5[i] = (int) (Math.random() * 100);
